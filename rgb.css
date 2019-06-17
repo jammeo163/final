@@ -1,0 +1,125 @@
+body {
+    background-color: steelblue;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding: 20px 0;
+}
+
+.intro {
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    font-weight: normal;
+    line-height: 1;
+    text-transform: none;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.example {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 100%;
+    transition: background-color 0.6s;
+    margin-top: 5%;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 100%;
+    transition: background-color 0.6s;
+    margin-top: 5%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+#example {
+    margin: 0 auto;
+    background-color: steelblue;
+    float: left;
+}
+
+span {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    color: white;
+    background-color: rgb(231, 42, 28);
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+    color: #232323;
+}
+
+#colorDisplay {
+    font-size: 200%;
+}
+
+button {
+    border: none;
+    background-color: white;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(231, 42, 28);
+}
+
+.colors {
+    width: 50%;
+}
+
+.mid {
+    margin: 0 auto;
+    float: center;
+}
